@@ -347,6 +347,8 @@ protocol_filter_icmp6(void *data, uint16_t len)
 }
 #endif
 
+
+
 static enum FilterReturn
 protocol_filter_ip(const void *data, uint16_t len, uint16_t eth_frame_type)
 {

@@ -40,6 +40,7 @@ enum FilterReturn {
 #ifdef INET6
     FILTER_NDP = 3,  // Neighbor Solicitation/Advertisement, Router Solicitation/Advertisement/Redirect
 #endif
+    FILTER_ICMP = 4,
 };
 
 void ff_kni_init(uint16_t nb_ports, const char *tcp_ports,
